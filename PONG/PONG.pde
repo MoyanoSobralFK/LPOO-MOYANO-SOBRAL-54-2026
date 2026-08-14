@@ -65,9 +65,10 @@ void draw(){
          if(estado==2){J2.puntaje++;}
 
          P.vel.x *= -1;
-         if(P.vel.x>
-         P.vel.x += 0.5;
-         P.vel.y += 0.5;
+         if(P.vel.x>0){ P.vel.x += 0.5;}
+         else         { P.vel.x -= 0.5;} 
+         if(P.vel.y>0){ P.vel.y += 0.5;}
+         else         { P.vel.y -= 0.5;} 
          
          estado=0;    
        }
