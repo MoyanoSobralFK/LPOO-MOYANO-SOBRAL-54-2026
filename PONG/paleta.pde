@@ -11,4 +11,7 @@ class Paleta {
     fill(#FFFFFF);
     rect(pos.x, pos.y, width/35, height/6.5);
   }
+
+  void mover(){
+  }
 }
