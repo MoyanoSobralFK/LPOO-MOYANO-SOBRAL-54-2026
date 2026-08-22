@@ -8,8 +8,12 @@ void setup()
 }
 
 int contador = 1;
+int estado = 1;
+int opcion = 1;
+
 void draw() 
 {
+  if(estado==1){
   background(0);
   
   
@@ -18,4 +22,5 @@ void draw()
   else                {fill(#E3A710);}
   text("PRESIONA ENTER", width/2.5, height - (width/36)); 
   contador++;
+}
 }
